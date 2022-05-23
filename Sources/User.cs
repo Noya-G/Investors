@@ -1,11 +1,23 @@
-﻿using System;
-
-abstract class user1
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+abstract partial class user1 : MonoBehaviour
 {
-	public abstract string Name { get; }
-	public abstract string Password { get; }
-	public user1()
+	private string name, mail, password;
+
+	public void setName(string n)
 	{
-		Name = Console.readline
+		name = name;
 	}
+
+	public void setpassword(string a)
+	{
+		password = a;
+	}
+
+	public void setMail(string b)
+	{
+		mail = b;
+	}
+
 }
